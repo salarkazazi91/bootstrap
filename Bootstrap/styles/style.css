@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet");
+body {
+  line-height: 1.5;
+  font-family: var(--font-family-sans-serif);
+}
+
+section.header {
+  background: -webkit-gradient(linear, left top, left bottom, from(#dd2476), to(#ff512f));
+  background: linear-gradient(to bottom, #dd2476, #ff512f);
+}
+
+section.header .p-nav {
+  padding: 2rem 7rem;
+}
+
+section.header .p-nav .nav-item a {
+  font-size: 0.9em;
+  color: whitesmoke;
+  font-family: "Rubik", sans-serif;
+}
+/*# sourceMappingURL=style.css.map */

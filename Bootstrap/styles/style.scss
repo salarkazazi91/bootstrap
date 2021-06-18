@@ -1,0 +1,27 @@
+@import "./global.scss";
+@import "./variables.scss";
+
+body{
+    line-height: 1.5;
+    font-family: var(--font-family-sans-serif);
+}
+
+section {
+    &.header {
+        background: $bggradient;
+
+        .p-nav {
+            padding: 2rem 7rem;
+
+            .nav-item {
+ 
+ 
+                a {
+                    font-size: 0.9em;
+                    color: whitesmoke;
+                    font-family: "Rubik", sans-serif;
+                }
+            }
+        }
+    }
+}
